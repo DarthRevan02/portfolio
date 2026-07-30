@@ -20,8 +20,8 @@ export default function About() {
             I'm already interested.
           </p>
           <p>
-            When I'm not pushing commits, I'm co-heading Valorant esports at IIT Madras,
-            organizing game dev workshops, or running <strong>F1 Monte Carlo simulations</strong>{' '}
+            When I'm not pushing commits, I'm Heading the Valorant Dept, Heighers eSports, IIT
+            Madras, organizing game dev workshops, or running <strong>F1 Monte Carlo simulations</strong>{' '}
             predicting championship outcomes before the engineers do.
           </p>
           <div className="location-badge">
