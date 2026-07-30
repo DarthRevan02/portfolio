@@ -104,15 +104,16 @@ nav{
 }
 .nav-links a:hover{color:var(--white);}
 .nav-links a:hover::after{transform:scaleX(1);}
-.nav-cta{
+.nav-links a.nav-cta{
   font-family:'JetBrains Mono',monospace;
   font-size:11px;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--bg);background:var(--rb);
+  color:#ffffff;background:var(--rb);
   text-decoration:none;
   padding:10px 22px;
-  transition:background .2s,transform .15s;
+  transition:background .2s,transform .15s,color .2s;
 }
-.nav-cta:hover{background:var(--gold);color:#1A1A1A;transform:translateY(-1px);}
+.nav-links a.nav-cta::after{display:none;}
+.nav-links a.nav-cta:hover{background:var(--gold);color:#1A1A1A;transform:translateY(-1px);}
 
 /* ── HERO ── */
 .hero{
@@ -543,27 +544,27 @@ section{padding:120px 48px;position:relative;z-index:2;}
   border-color:var(--gold);color:var(--gold);
 }
 
-/* ── TERMINAL BLOCK ── */
+/* ── TERMINAL BLOCK (Catppuccin Mocha) ── */
 .terminal{
-  background:#02040a;
-  border:1px solid rgba(0,90,255,0.3);
-  border-top:3px solid var(--rb);
+  background:#1e1e2e;
+  border:1px solid rgba(137,180,250,0.3);
+  border-top:3px solid #89b4fa;
   margin-top:2px;
   overflow:hidden;
 }
 .term-bar{
-  background:#0e1428;
+  background:#181825;
   padding:10px 16px;
   display:flex;align-items:center;gap:8px;
-  border-bottom:1px solid rgba(0,90,255,0.3);
+  border-bottom:1px solid rgba(137,180,250,0.25);
 }
 .term-dot{width:10px;height:10px;border-radius:50%;}
-.term-dot:nth-child(1){background:#ff5f57;}
-.term-dot:nth-child(2){background:#febc2e;}
-.term-dot:nth-child(3){background:#28c840;}
+.term-dot:nth-child(1){background:#f38ba8;}
+.term-dot:nth-child(2){background:#f9e2af;}
+.term-dot:nth-child(3){background:#a6e3a1;}
 .term-title{
   font-family:'JetBrains Mono',monospace;
-  font-size:10px;letter-spacing:.12em;color:#5a6a8a;
+  font-size:10px;letter-spacing:.12em;color:#6c7086;
   margin-left:12px;
 }
 .term-body{
@@ -572,13 +573,13 @@ section{padding:120px 48px;position:relative;z-index:2;}
   font-size:12px;line-height:1.9;
 }
 .term-line{display:block;}
-.t-prompt{color:#00d084;}
-.t-cmd{color:#f0f4ff;}
-.t-key{color:var(--rb-2);}
-.t-str{color:#e0c34a;}
-.t-comment{color:#5a6a8a;}
-.t-bool{color:#ff8c42;}
-.t-bracket{color:#a8b8d8;}
+.t-prompt{color:#a6e3a1;}
+.t-cmd{color:#cdd6f4;}
+.t-key{color:#89b4fa;}
+.t-str{color:#f9e2af;}
+.t-comment{color:#6c7086;}
+.t-bool{color:#fab387;}
+.t-bracket{color:#b4befe;}
 .t-indent{padding-left:20px;}
 .t-indent2{padding-left:40px;}
 
