@@ -41,20 +41,6 @@ export const education = [
     cgpa: '7.0',
     variant: 'iit',
   },
-  {
-    tag: 'Senior Secondary',
-    school: 'OPG World School',
-    degree: 'Senior Secondary (90.2%) · Secondary (88.8%)',
-    period: '2019 – 2023 · Delhi, India',
-    variant: 'muted',
-  },
-  {
-    tag: 'Schooling',
-    school: 'JayShree Periwal High School',
-    degree: 'Class I – X',
-    period: '2010 – 2019 · Jaipur, India',
-    variant: 'muted',
-  },
 ]
 
 export const experience = [
@@ -63,7 +49,7 @@ export const experience = [
     org: 'Heighers eSports · IIT Madras',
     role: 'Co-Head – Valorant Division',
     bullets: [
-      'Co-led "Astra 4.0" and "Aarambh 4.0" Valorant tournaments — data, matchmaking, and live hosting.',
+      'Co-led "Astra 4.0" and "Aarambh 4.0" Valorant tournaments - data, matchmaking, and live hosting.',
       'Boosted tournament registrations and YouTube viewership by 100% through targeted promotions.',
       'Managed community engagement and PR for competitive esports events.',
     ],
@@ -75,7 +61,7 @@ export const experience = [
     org: 'DevSource · ACM Student Chapter',
     role: 'Coordinator',
     bullets: [
-      'Conducted "Dev Camp" — a full bootcamp with hands-on Game Development sessions.',
+      'Conducted "Dev Camp" - a full bootcamp with hands-on Game Development sessions.',
       'Organized and led workshops on game development for student participants.',
     ],
     date: 'Aug 2025 – Present',
@@ -96,7 +82,7 @@ export const experience = [
     org: 'OPG World School',
     role: 'IT Head (Student Council) · Co-Founder, Tech Fest "Crypts"',
     bullets: [
-      'Co-founded the school\'s first annual tech fest "Crypts" — now a recurring annual event.',
+      'Co-founded the school\'s first annual tech fest "Crypts" - now a recurring annual event.',
       'Led an 8-member team delivering STEM competitions, workshops, and gaming events for 50+ participants.',
       'Led all digital and IT initiatives for academic and extracurricular activities.',
     ],
@@ -120,9 +106,9 @@ export const projects = [
       { val: '5→8→2', label: 'Network Arch' },
       { val: '0', label: 'ML Libraries' },
     ],
-    desc: 'Neuroevolution car simulator across Suzuka, Silverstone & Monza — built from pure matrix math with zero ML libraries. Feed-forward neural networks evolve across generations using genetic selection.',
+    desc: 'Neuroevolution car simulator across Suzuka, Silverstone & Monza - built from pure matrix math with zero ML libraries. Feed-forward neural networks evolve across generations using genetic selection.',
     highlights: [
-      'Pure Math.tanh() matrix operations — no TensorFlow, no sklearn',
+      'Pure Math.tanh() matrix operations - no TensorFlow, no sklearn',
       'Top-25% elite selection + Gaussian weight mutation',
       'O(1) spatial grid collision detection',
       'Real-time neural network visualizer + lap time graph',
@@ -134,7 +120,7 @@ export const projects = [
     typeLabel: 'ML · Monte Carlo',
     links: [{ label: 'GitHub ↗', href: 'https://github.com/DarthRevan02/F1_predictor_project' }],
     name: 'F1 Race Predictor & WDC Simulator',
-    desc: 'ML-powered F1 prediction system — 1M+ Monte Carlo simulations to model championship probability race by race.',
+    desc: 'ML-powered F1 prediction system - 1M+ Monte Carlo simulations to model championship probability race by race.',
     highlights: [
       '10 modular prediction pipelines (winner, podium, DNF, strategy)',
       'R² = 0.85 on historical position predictions',
@@ -163,7 +149,7 @@ export const projects = [
       { label: 'GitHub ↗', href: 'https://github.com/utkarsh3078/ICPC-website' },
     ],
     name: 'ACM ICPC Portal',
-    desc: 'RESTful API backend for a multi-role ICPC student portal — Student, Admin, and Alumni roles with JWT authentication.',
+    desc: 'RESTful API backend for a multi-role ICPC student portal - Student, Admin, and Alumni roles with JWT authentication.',
     highlights: [
       'RBAC with protected admin routes',
       'Session registration & attendance tracking APIs',
@@ -183,7 +169,7 @@ export const projects = [
     typeLabel: 'Game Dev · Godot',
     links: [{ label: 'GitHub ↗', href: 'https://github.com/DarthRevan02' }],
     name: '2D Platformer',
-    desc: 'Complete 2D platformer — player physics, collision detection, health system, multi-level progression built in Godot Engine.',
+    desc: 'Complete 2D platformer - player physics, collision detection, health system, multi-level progression built in Godot Engine.',
     tags: ['Godot', 'GDScript', 'Git'],
   },
   {
@@ -194,7 +180,7 @@ export const projects = [
       { label: 'GitHub ↗', href: 'https://github.com/DarthRevan02/f1_dashboard' },
     ],
     name: "Aadi's Pit Wall · F1 2026 Dashboard",
-    desc: 'Bold, single-page Formula 1 season dashboard — live-style ticker, race countdown, standings tables, calendar strip, and dark mode. Built with zero dependencies in pure HTML, CSS & JS.',
+    desc: 'Bold, single-page Formula 1 season dashboard - live-style ticker, race countdown, standings tables, calendar strip, and dark mode. Built with zero dependencies in pure HTML, CSS & JS.',
     highlights: [
       'Editorial-style hero with animated typography',
       'Driver & constructor standings with team color accents',

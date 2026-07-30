@@ -315,6 +315,8 @@ section{padding:120px 48px;position:relative;z-index:2;}
 }
 .edu-card:hover::before{transform:scaleX(1);}
 .edu-card.iit::before{background:var(--gold);}
+.edu-card.muted::before{background:transparent;}
+.edu-card.muted:hover::before{transform:scaleX(0);}
 .edu-tag{
   font-family:'JetBrains Mono',monospace;
   font-size:9px;letter-spacing:.2em;text-transform:uppercase;

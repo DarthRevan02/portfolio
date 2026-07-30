@@ -11,10 +11,10 @@ export default function About() {
           <p>
             I'm an engineering student at <strong>USICT, GGSIPU</strong> pursuing B.Tech in
             Information Technology, simultaneously enrolled in <strong>IIT Madras's B.S. Data
-            Science</strong> programme — because one degree clearly wasn't enough.
+            Science</strong> programme - because one degree clearly wasn't enough.
           </p>
           <p>
-            I build things that blend <em>analytical rigour with interactive design</em> —
+            I build things that blend <em>analytical rigour with interactive design</em> -
             scalable backend APIs, probabilistic championship simulators, physics-based game
             systems, and neural evolution demos. If it involves data, racing, or algorithms,
             I'm already interested.
@@ -47,7 +47,7 @@ export default function About() {
               <div className="term-dot"></div>
               <div className="term-dot"></div>
               <div className="term-dot"></div>
-              <span className="term-title">profile.json — zsh</span>
+              <span className="term-title">profile.json - zsh</span>
             </div>
             <div className="term-body">
               <span className="term-line">

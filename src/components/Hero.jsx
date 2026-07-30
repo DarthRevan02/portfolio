@@ -14,8 +14,8 @@ export default function Hero() {
       </h1>
 
       <div className="hero-sub-row">
-        <div className="hero-tag">B.Tech IT — USICT, Delhi</div>
-        <div className="hero-tag">B.S. Data Science — IIT Madras</div>
+        <div className="hero-tag">B.Tech IT - USICT, Delhi</div>
+        <div className="hero-tag">B.S. Data Science - IIT Madras</div>
         <div className="hero-tag gold">F1 Obsessed ⚡</div>
       </div>
 

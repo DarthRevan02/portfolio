@@ -12,13 +12,12 @@ export default function Education() {
           const isMuted = e.variant === 'muted'
           return (
             <div
-              className={`edu-card${isIit ? ' iit' : ''}`}
+              className={`edu-card${isIit ? ' iit' : ''}${isMuted ? ' muted' : ''}`}
               key={i}
-              style={isMuted ? { borderTopColor: 'var(--white-3)' } : undefined}
             >
               <div
                 className="edu-tag"
-                style={isMuted ? { color: 'var(--white-3)', background: 'rgba(255,255,255,0.05)' } : undefined}
+                style={isMuted ? { color: 'var(--white-3)', background: 'rgba(0,0,0,0.045)' } : undefined}
               >
                 {e.tag}
               </div>
