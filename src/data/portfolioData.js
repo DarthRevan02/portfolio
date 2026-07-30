@@ -211,11 +211,29 @@ export const skills = {
       name: 'Languages',
       chips: [
         { label: 'Python', hot: true },
-        { label: 'JavaScript ES6', hot: true },
         { label: 'C/C++' },
+        { label: 'JavaScript' },
         { label: 'C#' },
         { label: 'SQL' },
         { label: 'Java' },
+      ],
+    },
+    {
+      name: 'Data Science & ML',
+      chips: [
+        { label: 'NumPy', hot: true },
+        { label: 'Pandas', hot: true },
+        { label: 'scikit-learn', hot: true },
+        { label: 'TensorFlow' },
+        { label: 'PyTorch' },
+        { label: 'Matplotlib' },
+      ],
+    },
+    {
+      name: 'Data Engineering & Analytics',
+      chips: [
+        { label: 'Excel' },
+        { label: 'Streamlit' },
       ],
     },
     {
@@ -225,16 +243,10 @@ export const skills = {
         { label: 'Express.js', hot: true },
         { label: 'Django' },
         { label: 'Flask' },
+        { label: 'FastAPI' },
         { label: 'REST APIs' },
         { label: 'JWT' },
         { label: 'RBAC' },
-      ],
-    },
-    {
-      name: 'Databases',
-      chips: [
-        { label: 'PostgreSQL', hot: true },
-        { label: 'MongoDB' },
       ],
     },
   ],
@@ -250,31 +262,28 @@ export const skills = {
       ],
     },
     {
-      name: 'Game Dev',
+      name: 'Databases',
       chips: [
-        { label: 'Godot', hot: true },
-        { label: 'GDScript' },
-        { label: 'Unreal Engine' },
-        { label: 'Canvas 2D' },
+        { label: 'PostgreSQL', hot: true },
+        { label: 'MongoDB' },
+        { label: 'MySQL' },
       ],
     },
     {
-      name: 'ML / Data',
-      chips: [
-        { label: 'scikit-learn', hot: true },
-        { label: 'NumPy', hot: true },
-        { label: 'Pandas', hot: true },
-        { label: 'FastF1' },
-        { label: 'Monte Carlo' },
-      ],
-    },
-    {
-      name: 'Tools',
+      name: 'Developer Tools',
       chips: [
         { label: 'Git' },
         { label: 'GitHub' },
         { label: 'Postman' },
-        { label: 'Vercel' },
+        { label: 'Docker' },
+        { label: 'Jupyter Notebook' },
+      ],
+    },
+    {
+      name: 'Game Development',
+      chips: [
+        { label: 'Unreal Engine', hot: true },
+        { label: 'Godot', hot: true },
       ],
     },
   ],
