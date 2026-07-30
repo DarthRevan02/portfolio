@@ -4,7 +4,7 @@ import { projects } from '../data/portfolioData'
 export default function Projects() {
   return (
     <section id="projects" style={{ paddingTop: 80 }}>
-      <SectionHeader num="04" title="Pro" emphasis="jects" />
+      <SectionHeader num="04" title="Pro" emphasis="jects" noSpace />
 
       <div className="projects-grid">
         {projects.map((p, i) => (

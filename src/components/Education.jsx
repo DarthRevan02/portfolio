@@ -4,7 +4,7 @@ import { education } from '../data/portfolioData'
 export default function Education() {
   return (
     <section id="education" style={{ paddingTop: 80 }}>
-      <SectionHeader num="02" title="Edu" emphasis="cation" />
+      <SectionHeader num="02" title="Edu" emphasis="cation" noSpace />
 
       <div className="edu-grid reveal">
         {education.map((e, i) => {

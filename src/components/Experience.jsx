@@ -4,7 +4,7 @@ import { experience } from '../data/portfolioData'
 export default function Experience() {
   return (
     <section id="experience" style={{ paddingTop: 80 }}>
-      <SectionHeader num="03" title="Experi" emphasis="ence" />
+      <SectionHeader num="03" title="Experi" emphasis="ence" noSpace />
 
       <div className="exp-list">
         {experience.map((e, i) => (

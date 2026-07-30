@@ -733,12 +733,12 @@ footer{
 .t-tick{
   font-family:'JetBrains Mono',monospace;
   font-size:10px;letter-spacing:.2em;text-transform:uppercase;
-  color:rgba(255,255,255,.55);
+  color:#ffffff;
   padding:0 28px;
   display:inline-flex;align-items:center;gap:10px;
 }
 .t-tick .hi{color:var(--gold);font-weight:600;}
-.t-tick .sep{color:rgba(255,255,255,.2);padding:0 4px;}
+.t-tick .sep{color:rgba(255,255,255,.45);padding:0 4px;}
 
 /* ── MOBILE ── */
 @media(max-width:980px){
