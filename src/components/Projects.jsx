@@ -12,17 +12,22 @@ export default function Projects() {
             <div className="proj-header">
               <span className={`proj-type ${p.type}`}>{p.typeLabel}</span>
               <div className="proj-links">
-                {p.links.map((l, j) => (
-                  <a
-                    key={j}
-                    href={l.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="proj-link"
-                  >
-                    {l.label}
-                  </a>
-                ))}
+                {p.links.map((l, j) => {
+                  const isGithub = l.label.toLowerCase().includes('github')
+                  const isLive = l.label.toLowerCase().includes('live') || l.label.toLowerCase().includes('demo')
+                  const cls = isGithub ? 'github' : isLive ? 'live' : ''
+                  return (
+                    <a
+                      key={j}
+                      href={l.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`proj-link${cls ? ' ' + cls : ''}`}
+                    >
+                      {l.label}
+                    </a>
+                  )
+                })}
               </div>
             </div>
             <div className="proj-body">

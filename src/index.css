@@ -321,7 +321,7 @@ section{padding:120px 48px;position:relative;z-index:2;}
   color:var(--rb);background:rgba(0,90,255,0.12);
   padding:4px 10px;display:inline-block;margin-bottom:20px;
 }
-.edu-card.iit .edu-tag{color:var(--gold);background:rgba(255,209,0,0.1);}
+.edu-card.iit .edu-tag{color:var(--gold-dim);background:rgba(255,209,0,0.18);}
 .edu-school{
   font-family:'Fraunces',serif;
   font-size:22px;font-weight:700;color:var(--white);
@@ -441,6 +441,10 @@ section{padding:120px 48px;position:relative;z-index:2;}
   transition:color .2s,border-color .2s;
 }
 .proj-link:hover{color:var(--white);border-color:var(--white-3);}
+.proj-link.live{color:var(--red);border-color:rgba(220,0,0,0.35);}
+.proj-link.live:hover{color:#ffffff;background:var(--red);border-color:var(--red);}
+.proj-link.github{color:var(--green);border-color:rgba(0,168,150,0.35);}
+.proj-link.github:hover{color:#ffffff;background:var(--green);border-color:var(--green);}
 
 .proj-body{padding:24px 28px;flex:1;display:flex;flex-direction:column;}
 .proj-name{
@@ -637,7 +641,7 @@ section{padding:120px 48px;position:relative;z-index:2;}
 .contact-big{
   font-family:'Bebas Neue',sans-serif;
   font-size:clamp(60px,9vw,120px);
-  letter-spacing:.04em;color:rgba(255,255,255,0.08);
+  letter-spacing:.04em;color:rgba(255,255,255,0.28);
   line-height:.9;
   pointer-events:none;
 }
